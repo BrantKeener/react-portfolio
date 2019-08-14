@@ -21,7 +21,6 @@ class SocialProfiles extends Component {
         <div style={ { display: 'inline-block', justifyContent: 'center' } }>
           {
           SOCIAL_PROFILES.map(SOCIAL_PROFILE => {
-            console.log(SOCIAL_PROFILE)
             return (
               <SocialProfile key={ SOCIAL_PROFILE.id } socialProfile={ SOCIAL_PROFILE } />
             )
