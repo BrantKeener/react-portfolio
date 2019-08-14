@@ -7,7 +7,7 @@ class SocialProfile extends Component {
 
     return (
       <span>
-        <a href={ link }><img style={ { width: 35, height: 35, margin: 10 } }src={ image } alt='Social Profile Icon' /></a>
+        <a href={ link }><img style={ { width: 35, height: 35, margin: 10 } }src={ image } alt='Social Profile' /></a>
       </span>
     )
   }

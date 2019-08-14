@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
+import Profile from './assets/profile.jpg'
 
 class App extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class App extends Component {
 
     return (
       <div>
+        <img src={ Profile } alt='Profile' className='profile' />
         <h1>
           Hello!
         </h1>
